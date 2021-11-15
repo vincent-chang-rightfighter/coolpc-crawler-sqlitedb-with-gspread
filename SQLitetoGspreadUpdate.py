@@ -1,14 +1,10 @@
-#!/usr/bin/env python
 # coding: utf-8
 import sqlite3
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials as SAC
 from gspread.models import Cell
 
-# 設定 json 檔案路徑及程式操作範圍
-# Json = 'secrettoken.json'
 Url = ['https://spreadsheets.google.com/feeds']
-
 con = sqlite3.connect('coolpcdb.db')
 
 Connect = SAC.from_json_keyfile_name('secrettoken.json', Url)
@@ -37,7 +33,6 @@ for row in sqlite_read_from:
     cells.append(Cell(row=counter_i, col=5, value=row[5]))
     cells.append(Cell(row=counter_i, col=6, value=row[6]))
     cells.append(Cell(row=counter_i, col=7, value=row[7]))
-
     counter_i += 1
 
 con.close()
