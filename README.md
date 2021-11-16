@@ -6,7 +6,9 @@
 
 ## 環境 Environment
 
-請先安裝 Nodejs 和 Python 3
+請先安裝 Nodejs 及 Python 3
+
+我所使用的開發環境
 
 Nodejs 14.17.3
 
@@ -24,7 +26,7 @@ coolpc-crawler-sqlitedb-with-gspread/
 └─ SQLitetoGspreadUpdate.py
 ```
 
-## 第一次執行前 First Time Setup
+## 首次執行前 First Time Setup
 
 進入該目錄
 
@@ -57,7 +59,7 @@ coolpc-crawler-sqlitedb-with-gspread/
 └─ SQLitetoGspreadUpdate.py
 ```
 
-#  執行 Excute
+##  執行 Excute
 
 ### 先執行爬蟲程式 Crawler Part Program
 
