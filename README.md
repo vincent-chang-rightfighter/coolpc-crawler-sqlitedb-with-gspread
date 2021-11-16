@@ -59,6 +59,9 @@ coolpc-crawler-sqlitedb-with-gspread/
 └─ SQLitetoGspreadUpdate.py
 ```
 
+## 啟用 Google Sheets API
+[參考這篇文章手法](https://www.learncodewithmike.com/2021/06/pandas-and-google-sheets.html)
+
 ##  執行 Excute
 
 ### 先執行爬蟲程式 Crawler Part Program
