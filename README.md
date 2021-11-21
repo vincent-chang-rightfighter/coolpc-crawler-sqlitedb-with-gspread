@@ -126,6 +126,7 @@ coolpc-crawler-sqlitedb-with-gspread/
 Debian GNU/Linux 11
 
 #### Linux shell script
+使用終端機執行
 
 ```shell
 sh run.sh
