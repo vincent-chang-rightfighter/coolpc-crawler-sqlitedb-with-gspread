@@ -76,7 +76,7 @@ coolpc-crawler-sqlitedb-with-gspread/
 
 將 Gspread 檔案開啟複製白色連結部分,如圖所示
 
-<img src = https://raw.githubusercontent.com/vincent-chang-rightfighter/coolpc-crawler-sqlitedb-with-gspread/main/img/sheet_pic.jpg>
+<img src = https://raw.githubusercontent.com/vincent-chang-rightfighter/coolpc-crawler-sqlitedb-with-gspread/master/img/sheet_pic.jpg>
 
 並打開編輯器修改 ```SQLitetoGspreadUpdate.py```
 
