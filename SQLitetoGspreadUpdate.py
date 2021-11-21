@@ -11,7 +11,7 @@ Connect = SAC.from_json_keyfile_name('secrettoken.json', Url)
 GoogleSheets = gspread.authorize(Connect)
 
 Sheet = GoogleSheets.open_by_key(
-    'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+    'your_gspread_file_key')
 Sheets = Sheet.sheet1
 dataTitle = ["品名", "類別", "價格", "更新時間", "開機後第一次取得價格",
              "開機後第一次取得時間", "本紀錄最低價", "價差", "價差百分比"]
