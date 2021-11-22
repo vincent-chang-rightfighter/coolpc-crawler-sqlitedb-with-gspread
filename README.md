@@ -107,6 +107,7 @@ python3 SQLitetoGspreadUpdate.py
 ### 傻瓜腳本 Noob Execute File
 
 最終目錄樹會長這樣:
+
 ```
 coolpc-crawler-sqlitedb-with-gspread/
 ├─ img/
@@ -121,9 +122,7 @@ coolpc-crawler-sqlitedb-with-gspread/
 └─ SQLitetoGspreadUpdate.py
 ```
 
-我的執行的環境
-
-Debian GNU/Linux 11
+我的執行的環境: Debian GNU/Linux 11
 
 #### Linux shell script
 使用終端機執行
@@ -131,4 +130,7 @@ Debian GNU/Linux 11
 ```shell
 sh run.sh
 ```
-#### 
+
+
+#### Google Spread Sheet 價差部分程式碼
+### [點這裡跳轉](https://github.com/vincent-chang-rightfighter/coolpc-crawler-sqlitedb-with-gspread/blob/main/Gspread-calculate-code/README.md)
