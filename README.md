@@ -133,4 +133,4 @@ sh run.sh
 
 
 #### Google Spread Sheet 價差部分程式碼
-### [點這裡跳轉](https://github.com/vincent-chang-rightfighter/coolpc-crawler-sqlitedb-with-gspread/blob/main/Gspread-calculate-code/README.md)
+### [點這裡跳轉](https://github.com/vincent-chang-rightfighter/coolpc-crawler-sqlitedb-with-gspread/tree/master/Gspread-calculate-code)
