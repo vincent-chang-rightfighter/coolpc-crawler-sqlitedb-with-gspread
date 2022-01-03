@@ -8,10 +8,10 @@ var sqlite3 = require("sqlite3").verbose();
 const sourcesurl = 'https://coolpc.com.tw/evaluate.php';
 var renewtime = "";
 
-const blankLines = new RegExp(/(^[ \t]*\n)/, "gm");
+const blankLines = new RegExp(/^\s*\n/, "gm");
 const heartLines = new RegExp(/(^[\u2764] *.*)\n/, "gm");
 const arrowLine = new RegExp(/(.*[\u21AA] *.*)\n/, "g");
-const downarrowLine = new RegExp(/[\u25BC].*$/, "gm");
+const downarrowLine = new RegExp(/共有.*\n/, "gm");
 
 function removeBlanklines(input) {
     return input.replace(blankLines, "");
